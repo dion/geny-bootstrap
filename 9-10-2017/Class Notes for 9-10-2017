@@ -30,13 +30,51 @@ we used the google chrome inspector in order to inspect the html elements and fi
 https://developer.chrome.com/devtools
 
 ------------------------------------------
-
 for the second half of the page, we utilized the following components:
 https://getbootstrap.com/docs/3.3/components/#thumbnails-custom-content
 https://getbootstrap.com/docs/3.3/components/#list-group
 https://getbootstrap.com/docs/3.3/components/#glyphicons
 
+CUSTOM CONTENT section
+1) we used the custom content component in order to create the features cards, https://getbootstrap.com/docs/3.3/components/#thumbnails-custom-content
+
+2) we put them into a "Three equal columns" 3 column grid
+https://getbootstrap.com/docs/3.3/examples/grid/ 
+
+GAMMA FEATURES section
+1) we used a second jumbotron in order to create the "Gamma Features" section
+
+2) we used a list group in order to create the list
+https://getbootstrap.com/docs/3.3/components/#list-group
+
+3) we added "glyphicon glyphicon-ok" next to each group item
+https://getbootstrap.com/docs/3.3/components/#glyphicons
+
+4) we added "glyphicon glyphicon-camera" with a font-size of 300px
+https://getbootstrap.com/docs/3.3/components/#glyphicons
+
+5) we put the list and the camera into a "Two columns" layout
+https://getbootstrap.com/docs/3.3/examples/grid/ 
 
 
+FOOTER section
 for the footer we used a container-fluid to make it fit 100% of the screen
 https://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_gs_container-fluid
+
+1) for the footer we added an "inline-list" for the "Home, About, Privacy Policy and Terms of Use" section
+https://v4-alpha.getbootstrap.com/content/typography/#inline
+
+2) we used regular text for the copyright text and added &copy; ASCII html code for the copyright symbol
+
+3) we put the footer content into a "Two columns" layout
+https://getbootstrap.com/docs/3.3/examples/grid/ 
+
+
+
+
+
+
+
+
+
+
