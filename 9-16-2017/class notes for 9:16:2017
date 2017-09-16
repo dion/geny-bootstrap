@@ -1,0 +1,80 @@
+class notes for 9/16/2017
+
+we used our standard scaffolding which includes bootstrap css, bootstrap js and jquery from cdn
+
+1) we utilized bootstrap navbar again
+https://getbootstrap.com/docs/3.3/components/#navbar
+	a) remove all the uneeded links and search box in the html snippet
+
+2) we utilized jumbotron again, the full width version without rounded corners
+https://getbootstrap.com/docs/3.3/components/#jumbotron
+
+3) we dropped in our content, h1 tag, paragraph tag, button, image
+
+4) we organized the content into a 2 column grid layout
+
+5) we created a new folder called css/ and created a main.css file in there
+
+6) we imported out css stylesheet into our page
+<link rel="stylesheet" href="css/main.css">
+
+7) we utilized google fonts for h1 and h2 tags
+https://fonts.google.com/specimen/Fjalla+One 
+and styled the h1 and h2 tags with the font-family css property:
+	font-family: 'Fjalla One', sans-serif;
+
+8) for all the main body content on the page we used the standard fluid-container with container combo, replacing 'my-custom-class-goes-here' with the class name we want for our new section
+	<div class="container-fluid my-custom-class-goes-here">
+      <div class="container">
+      	content goes in here
+      </div>
+    </div> 
+
+9) for the 4 column features section that has the glyphicons we utilized a 4 column grid layout and then we used the same method of setting the span inside this section to display:block in the css in order to get the icon and the text label into two rows.
+
+10) we wrapped the glyphicons in a <div> tag and added a class of circle and used the following css to style the circle:
+
+	border-radius: 53px;
+    background-color: #1584be;
+    width: 70px;
+    height: 70px;
+    padding-top: 14px;
+    margin: 20px auto;
+
+
+11) for the "Take A Closer Look" section, we used our container combo from step 8
+and added h1 tag, p tag and button
+
+12) for 'Business Theme Includes' section, we used the same container combo from step 8, and then h1 tag, unordered list (ul), an an image tag, we put everything into a 2 column grid and changed the background-color in css
+
+13) for the 'More Features Include' section, we copied and pasted the 'Business Theme Includes' section and just changed the column ordering so that the image comes before the list content
+
+14) for the footer we used out container combo from step 8 again added text-center to the inner container and placed out text inside
+
+
+overall notes:
+to hide content with bootstrap, we can use the hidden- class
+to hide on mobile phones we can use hidden-xs
+to hide on tablets we can use hidden-sm
+to hide on regular desktop we can use hidden-md
+to hide on larger desktop we can use hidden-lg
+
+related bootstrap breakpoints reference:
+https://stackoverflow.com/questions/19592968/bootstrap-3-breakpoints-and-media-queries
+
+for the navbar:
+to get the 2 line navigation links we did the following:
+
+<li>
+	<a href="#">HOME <span>Main Page</span></a>
+</li>
+we added a <span> tag inside the <a> tag and then in css we added a property to set the <span> inside of the navbar <a> tag to be display:block
+example:
+.navbar-default .navbar-right li a span {
+	display:block;
+}
+
+related css display property reference:
+https://www.w3schools.com/css/css_display_visibility.asp
+
+

@@ -1,0 +1,97 @@
+.navbar {
+	margin-bottom:0;
+}
+.navbar-default .navbar-right li a span {
+	display:block;
+	font-weight:normal;
+	font-family:"arial";
+}
+.navbar-default .navbar-nav {
+	font-family: 'Fjalla One', sans-serif;
+}
+.navbar-default .navbar-nav>.active>a {
+	background-color:#1584be;
+	color:#ffffff;
+	font-weight:bold;
+}
+.navbar-default .navbar-right li a {
+	border-right:1px solid #cccccc;
+}
+
+.jumbotron {
+    background-image: url(../images/hero-bg.jpg);
+    background-position: 0 5%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom:0;
+}
+.jumbotron h1 {
+	font-size:50px;
+	font-family: 'Fjalla One', sans-serif;
+}
+.jumbotron p {
+	font-size:18px;
+}
+.features-section {
+	background-color:#f4f4f4;
+	padding:30px 0;
+}
+.features-section .glyphicon {
+	font-size:40px;
+	display:block;
+	color:#ffffff;
+}
+.features-section h3 {
+	font-family: 'Fjalla One', sans-serif;
+	font-size:18px;
+}
+.features-section .circle {
+	border-radius: 53px;
+    background-color: #1584be;
+    width: 70px;
+    height: 70px;
+    padding-top: 14px;
+    margin: 20px auto;
+}
+.closerlook-section {
+	background-color:#e24e30;
+	color:#ffffff;
+	padding: 40px 0;
+}
+
+.closerlook-section h1 {
+	font-family: 'Fjalla One', sans-serif;
+}
+.includes-section ul {
+	list-style-type:none;
+}
+.includes-section {
+	padding:40px;
+}
+
+.includes-section h2 {
+	font-family: 'Fjalla One', sans-serif;
+	border-bottom:1px solid #cccccc;
+	padding-bottom:2px;
+}
+.blue-bg-section {
+	background-color:#1584be;
+	color:#ffffff;
+}
+.blue-bg-section h2 {
+	border-bottom:1px solid #ffffff;
+}
+.footer {
+	padding:20px 0;
+	background-color:#f4f4f4;
+}
+
+/* Landscape phones and smaller */
+@media (max-width: 480px) {
+	.includes-section ul {
+		padding-left:0;
+	}
+	.includes-section {
+		padding:10px 0 40px;
+	}
+}
