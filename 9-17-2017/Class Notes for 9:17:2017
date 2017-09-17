@@ -1,0 +1,64 @@
+Class Notes for 9/17/2017
+
+we covered the "fixed to top" navbar feature in bootstrap and how to utilize it in our pages. we also covered bootstrap javascript components and plugins.
+
+1) we started with our basic bootstrap html scaffolding that includes bootstrap css and js and jquery includes. 
+
+2) we added a fixed to top navbar
+https://getbootstrap.com/docs/3.3/components/#navbar-fixed-top
+	-we set the background-color to transparent and set the borders to zero so that the jumbotron image can show through
+
+3) we added a fullwidth no-rounded corner jumbotron component
+https://getbootstrap.com/docs/3.3/components/#jumbotron
+
+4) we used h1 and p tags to add content to the jumbotron section, we also added top padding of 150px
+
+5) we used out container-fluid and container combination to get a full width section for the "why choose us?" section.
+
+6) we used h3 and p tags to add the intro text for this section
+
+7) we used an unordered "Inline" list
+https://getbootstrap.com/docs/3.3/css/#type-lists
+
+8) we set each li element to use 4 columns 
+'col-md-4'
+
+9) we created 2 columns inside the li 
+	-'col-md-3' for the glyphicon
+	-'col-md-9' for the content
+
+
+for the javascript portion 
+1) we created a script tag at the bottom of the page after the last script include
+
+2) we selected the 'window' object and added our own function to it's scroll method
+
+3) inside the scroll method we selected the '.navbar' element and compared it's top offset to determine when the navbar has travelled more than 50px down the window.
+	-we add a class of 'top-nav-collapse' to the '.navbar-fixed-top' element when the navbar is greater than 50px down the window and we remove the class when it's less than 50px
+
+4) we add a new css class to style .top-nav-collapse to add background color and a css transition to smoothly fade in and out the background
+
+
+Tracking the in-page navigation
+
+we used the scrollspy bootstrap plugin in order to achieve this
+https://getbootstrap.com/docs/3.3/javascript/#scrollspy 
+
+this requires 3 steps
+
+1) in the body tag add the following attributes: data-spy="scroll" data-target="#navbar-example"
+
+2) add an id attribute to the global navbar element and set it's value to "navbar-example" in order to link up the scrollspy to the body tag
+
+3) add in page anchors and reference those anchors in the navbar links
+	reference link:
+	http://www.echoecho.com/htmllinks08.htm
+
+4) test out by scrolling the nav on the page
+
+
+
+extra notes:
+
+css child selectors
+https://www.w3schools.com/css/css_combinators.asp

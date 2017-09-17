@@ -1,0 +1,45 @@
+.jumbotron {
+    background-image: url(../images/chair.jpg);
+    background-position: 0 5%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom:0;
+    color:#ffffff;
+    height:500px;
+    padding-top:150px;
+}
+.jumbotron h1 {
+	font-size:80px;
+}
+.jumbotron p {
+	font-size:18px;
+	padding:20px;
+}
+
+.navbar-default {
+	background-color: transparent;
+    border: 0 none;
+    color:#ffffff;
+    font-weight:bold;
+}
+.navbar-default .navbar-brand,
+.navbar-default .navbar-nav > li > a {
+	color:#ffffff;
+}
+.choose-section-parent {
+	padding:40px 0;
+}
+.choose-section {
+	padding:20px 0;
+}
+.choose-section .glyphicon {
+	font-size:50px;
+	margin-top:20px;
+}
+
+.top-nav-collapse {
+	background-color:#000;
+	-webkit-transition: background .5s ease-in-out;
+    -moz-transition: background .5s ease-in-out;
+    transition: background .5s ease-in-out;
+}
