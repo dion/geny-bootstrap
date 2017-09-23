@@ -1,0 +1,16 @@
+1) We downloaded the bootstrap zip for the 3.3 version release:
+https://github.com/twbs/bootstrap/releases/download/v3.3.7/bootstrap-3.3.7-dist.zip
+
+2) We unzipped the archive and moved the folders to our root folder in our project so our folder structure looks like this:
+
+css/
+fonts/
+js/
+
+3) We created a new html file and used the basic template example from here:
+https://getbootstrap.com/docs/3.3/getting-started/#template
+
+4) We went through the majority of the javascript components available to use through bootstrap from this page:
+https://getbootstrap.com/docs/3.3/javascript/
+
+
