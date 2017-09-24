@@ -1,0 +1,24 @@
+For today's lesson we utilized bootstrap in order to duplicate the above the fold section of the forever21 website.
+
+1) we created an global promotional area using the bootstrap full width container-fluid class
+
+2) we brought in the default navbar (https://getbootstrap.com/docs/3.3/components/#navbar-default) and changed all the inner text to reflect what forever21's site navigation has
+
+3) we also added a brand image: https://getbootstrap.com/docs/3.3/components/#navbar-brand-image
+
+4) for the search box we took out the submit button and added "Button addons", including adding a magnifying glass icon into it
+https://getbootstrap.com/docs/3.3/components/#input-groups-buttons
+
+5) for the sign-in link we added a bootstrap modal component and then used the css from this example in order to make it slide from the right side of the screen
+https://codepen.io/bootpen/pen/jbbaRa?editors=1100
+
+6) we added more glyphicons for heart and cart links
+
+7) we added a currency/country selector using bootstrap dropdowns
+https://getbootstrap.com/docs/3.3/javascript/#dropdowns
+
+8) and finally we added bootstrap carousel and removed the indicators to finish off the main hero section
+https://getbootstrap.com/docs/3.3/javascript/#carousel
+
+
+as usual all files can be found on https://github.com/dion/geny-bootstrap under todays date: 9/24/2017
