@@ -1,0 +1,25 @@
+.nav > li.dropdown.open {
+  position: static;
+}
+
+.nav > li.dropdown.open .dropdown-menu {
+  display: table;
+  border-radius: 0px;
+  width: 100%;
+  text-align: center;
+  left: 0;
+  right: 0;
+}
+
+.dropdown-menu > li {
+  display: table-cell;
+  height: 50px;
+  line-height: 50px;
+  vertical-align: middle;
+}
+
+@media screen and (max-width: 767px) {
+  .dropdown-menu > li {
+    display: block;
+  }
+}

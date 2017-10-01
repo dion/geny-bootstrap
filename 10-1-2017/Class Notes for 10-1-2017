@@ -1,0 +1,24 @@
+page we're going to build
+http://www.lexus.com/
+
+
+We used the following components 
+
+navbar
+https://getbootstrap.com/docs/3.3/components/#navbar
+
+dropdown component
+https://getbootstrap.com/docs/3.3/components/#dropdowns
+
+css for full width dropdowns
+https://codepen.io/danielmdesigns/pen/QbgYKa
+
+grid system
+https://www.w3schools.com/bootstrap/bootstrap_grid_system.asp
+
+
+
+optional:
+
+dropdown on hover plugin
+https://cameronspear.com/demos/bootstrap-hover-dropdown/
